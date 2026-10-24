@@ -22,7 +22,7 @@
 
 ## 👋 Hello, I'm Mark
 
-I'm a former **Chief Technology & Security Officer** with a background spanning cybersecurity leadership, cloud infrastructure, platform architecture and digital identity.
+I'm a **Chief Technology & Security Officer** with a background spanning cybersecurity operations and leadership, cloud infrastructure, platform architecture and digital identity.
 
 I enjoy moving between **strategy and hands-on engineering**: designing secure services, investigating how systems behave, building tools that make complex information useful and experimenting with embedded hardware. This GitHub is where those ideas become working projects.
 
