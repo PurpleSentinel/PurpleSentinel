@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88" role="img" aria-labelledby="footertitle">
+  <title id="footertitle">Purple Sentinel footer graphic</title>
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#20133f"/><stop offset="1" stop-color="#0e2a3c"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#bd65ff"/><stop offset="1" stop-color="#40e0d0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="88" rx="12" fill="url(#b)"/>
+  <rect width="1200" height="3" rx="1" fill="url(#line)"/>
+  <text x="600" y="39" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#f3f3ff" letter-spacing="1.4">CURIOSITY → ENGINEERING → REAL-WORLD IMPACT</text>
+  <text x="600" y="64" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="12.5" fill="#b6bbd3">PurpleSentinel  •  Secure by design. Built to explore.</text>
+</svg>

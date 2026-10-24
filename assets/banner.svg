@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Purple Sentinel — Mark Rodman</title>
+  <desc id="desc">Cybersecurity and engineering themed dark violet and cyan banner</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1021"/>
+      <stop offset="0.54" stop-color="#171233"/>
+      <stop offset="1" stop-color="#0a2133"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b55cff"/>
+      <stop offset="0.5" stop-color="#7f87ff"/>
+      <stop offset="1" stop-color="#40e0d0"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9d64fa"/>
+      <stop offset="1" stop-color="#40e0d0"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#9b9ac1" stroke-opacity=".085" stroke-width="1"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="smallglow"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <clipPath id="rounded"><rect width="1200" height="330" rx="19"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="330" fill="url(#bg)"/>
+    <rect width="1200" height="330" fill="url(#grid)"/>
+    <circle cx="990" cy="154" r="158" fill="#6e36f8" fill-opacity=".20" filter="url(#glow)"/>
+    <circle cx="1090" cy="230" r="130" fill="#06e1c9" fill-opacity=".13" filter="url(#glow)"/>
+    <path d="M0 0h1200" stroke="url(#accent)" stroke-width="5"/>
+    <path d="M0 329h1200" stroke="url(#accent)" stroke-width="3" opacity=".8"/>
+    <!-- circuit traces -->
+    <g stroke="#5adbd9" fill="none" stroke-width="2" opacity=".29">
+      <path d="M855 22v58l56 55h140M1172 55h-83l-38 42v32"/>
+      <path d="M777 308h71l75-75h56M1199 270h-80l-66-66"/>
+      <path d="M1070 0v42l-32 32h-50M940 320v-26l65-65"/>
+      <circle cx="1052" cy="135" r="5" fill="#5adbd9"/>
+      <circle cx="980" cy="233" r="5" fill="#5adbd9"/>
+      <circle cx="989" cy="74" r="5" fill="#5adbd9"/>
+      <circle cx="1119" cy="270" r="5" fill="#5adbd9"/>
+    </g>
+    <g transform="translate(976 165)">
+      <circle r="102" fill="none" stroke="#8f78ef" stroke-width="1.5" stroke-opacity=".40" stroke-dasharray="5 9"/>
+      <circle r="80" fill="#0e1935" fill-opacity=".85" stroke="url(#accent)" stroke-width="2.3"/>
+      <path d="M0-54 46-36V-1c0 37-24 64-46 77-25-13-46-40-46-77v-35z" fill="#100d2b" stroke="url(#shield)" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M-25 4-7 22 31-20" fill="none" stroke="#53e3cf" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      <circle r="114" fill="none" stroke="#53e3cf" stroke-opacity=".16" stroke-width="1"/>
+    </g>
+    <!-- label + typography -->
+    <rect x="62" y="48" width="192" height="31" rx="15.5" fill="#2c2056" stroke="#8d6fe0" stroke-opacity=".45"/>
+    <circle cx="80" cy="63" r="4.5" fill="#5aebd7"/>
+    <text x="95" y="68" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="2" fill="#e0dcff">PURPLE SENTINEL</text>
+    <text x="60" y="155" font-family="DejaVu Sans, Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="-2" fill="#ffffff">MARK RODMAN</text>
+    <rect x="61" y="175" width="610" height="4" rx="2" fill="url(#accent)"/>
+    <text x="62" y="213" font-family="DejaVu Sans, Arial, sans-serif" font-size="19.5" font-weight="600" fill="#d4d9f4">TECHNOLOGY  /  SECURITY  /  ENGINEERING</text>
+    <text x="62" y="257" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#aeb9d6">Building secure systems. Exploring what comes next.</text>
+    <text x="63" y="297" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#52decf">ISLE OF MAN  ·  OPEN SOURCE  ·  HANDS-ON INNOVATION</text>
+  </g>
+</svg>
